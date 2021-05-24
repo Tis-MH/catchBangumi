@@ -1,0 +1,679 @@
+2021-05-23 00:39:21 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/robots.txt> (referer: None)
+2021-05-23 00:39:24 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93> (referer: None)
+2021-05-23 00:39:25 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-3809f625d2cfc1c4ca6c24544b202fe251ab2113.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:25 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-3809f625d2cfc1c4ca6c24544b202fe251ab2113.html>
+{'_type': '动画',
+ 'author': '千夏字幕组',
+ 'complete_times': '12',
+ 'content_length': '285.1MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-3809f625d2cfc1c4ca6c24544b202fe251ab2113.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：3809f625d2cfc1c4ca6c24544b202fe251ab2113</span>',
+ 'published_time': '2021/05/15',
+ 'seed': '28',
+ 'title': '【千夏字幕组】【青梅竹马绝对不会输的恋爱喜剧_OsananajimigaZettainiMakenaiLoveComedy】[第05话][1080p_AVC][简体]'}
+2021-05-23 00:39:25 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-ba9bdfae9fc2a42125c0d877ec3129b6f21cff09.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:25 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-86b87d0b163dff9923dc8495b1791072f9ef3759.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:25 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-7772dec40a4a64d9bd50c8daa04005182b50c9b5.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:25 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-feb23fd86a0a5ddbf3f1d2936558dd798bd92b27.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:25 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-a3b23578a75df37d9a5d9b5fd19c7ae18fe1d21a.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:25 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-ba9bdfae9fc2a42125c0d877ec3129b6f21cff09.html>
+{'_type': '动画',
+ 'author': 'NC-Raws',
+ 'complete_times': '72',
+ 'content_length': '310.3MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-ba9bdfae9fc2a42125c0d877ec3129b6f21cff09.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：ba9bdfae9fc2a42125c0d877ec3129b6f21cff09</span>',
+ 'published_time': '2021/05/12',
+ 'seed': '164',
+ 'title': '[NC-Raws]青梅竹馬絕對不會輸的戀愛喜劇/Osamake-05[Baha][WEB-DL][1080p][AVCAAC][CHT][MP4]'}
+2021-05-23 00:39:26 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-86b87d0b163dff9923dc8495b1791072f9ef3759.html>
+{'_type': '动画',
+ 'author': '轻之国度字幕组',
+ 'complete_times': '43',
+ 'content_length': '206.8MB',
+ 'download_times': '1',
+ 'href': 'http://www.kisssub.org/show-86b87d0b163dff9923dc8495b1791072f9ef3759.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：86b87d0b163dff9923dc8495b1791072f9ef3759</span>',
+ 'published_time': '2021/05/12',
+ 'seed': '180',
+ 'title': '[轻之国度字幕组][青梅竹马绝对不会输的恋爱喜剧][05][720P][MP4]'}
+2021-05-23 00:39:26 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-0adcd67ff2b78dd9a4491a83bd6ea9ebfdec6678.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:26 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-7576a18a7bb9b6e9c098bef0ebefcef9e60bead9.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:26 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-7772dec40a4a64d9bd50c8daa04005182b50c9b5.html>
+{'_type': '动画',
+ 'author': '力量就是大王',
+ 'complete_times': '2',
+ 'content_length': '189.4MB',
+ 'download_times': '1',
+ 'href': 'http://www.kisssub.org/show-7772dec40a4a64d9bd50c8daa04005182b50c9b5.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：7772dec40a4a64d9bd50c8daa04005182b50c9b5</span>',
+ 'published_time': '2021/05/14',
+ 'seed': '3',
+ 'title': '【4月新番】青梅竹马绝对不会输的恋爱喜剧01[1080P][GB][简体中文]'}
+2021-05-23 00:39:26 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-feb23fd86a0a5ddbf3f1d2936558dd798bd92b27.html>
+{'_type': '动画',
+ 'author': '力量就是大王',
+ 'complete_times': '0',
+ 'content_length': '197.3MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-feb23fd86a0a5ddbf3f1d2936558dd798bd92b27.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：feb23fd86a0a5ddbf3f1d2936558dd798bd92b27</span>',
+ 'published_time': '昨天17:31',
+ 'seed': '0',
+ 'title': '【4月新番】青梅竹马绝对不会输的恋爱喜剧02[1080P][GB][简体中文]'}
+2021-05-23 00:39:26 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-a3b23578a75df37d9a5d9b5fd19c7ae18fe1d21a.html>
+{'_type': '动画',
+ 'author': 'Lilith-Raws',
+ 'complete_times': '89',
+ 'content_length': '310.2MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-a3b23578a75df37d9a5d9b5fd19c7ae18fe1d21a.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：a3b23578a75df37d9a5d9b5fd19c7ae18fe1d21a</span>',
+ 'published_time': '2021/05/13',
+ 'seed': '356',
+ 'title': '[Lilith-Raws]青梅竹馬絕對不會輸的戀愛喜劇/OsananajimigaZettainiMakenaiLoveComedy-05[Baha][WEB-DL][1080p][AVCAAC][CHT][MP4]'}
+2021-05-23 00:39:26 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-0adcd67ff2b78dd9a4491a83bd6ea9ebfdec6678.html>
+{'_type': '动画',
+ 'author': '千夏字幕組',
+ 'complete_times': '16',
+ 'content_length': '405.7MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-0adcd67ff2b78dd9a4491a83bd6ea9ebfdec6678.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：0adcd67ff2b78dd9a4491a83bd6ea9ebfdec6678</span>',
+ 'published_time': '2021/05/15',
+ 'seed': '42',
+ 'title': '【千夏字幕組】【青梅竹馬絕對不會輸的戀愛喜劇_OsananajimigaZettainiMakenaiLoveComedy】[第05話][1080p_HEVC][簡繁內封]'}
+2021-05-23 00:39:27 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-7576a18a7bb9b6e9c098bef0ebefcef9e60bead9.html>
+{'_type': '动画',
+ 'author': '千夏字幕組',
+ 'complete_times': '14',
+ 'content_length': '285MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-7576a18a7bb9b6e9c098bef0ebefcef9e60bead9.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：7576a18a7bb9b6e9c098bef0ebefcef9e60bead9</span>',
+ 'published_time': '2021/05/15',
+ 'seed': '51',
+ 'title': '【千夏字幕組】【青梅竹馬絕對不會輸的戀愛喜劇_OsananajimigaZettainiMakenaiLoveComedy】[第05話][1080p_AVC][繁體]'}
+2021-05-23 00:39:27 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-9bdad3ab2f55c7fa67d6e66d54e41c37739fc705.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:27 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-497059d3f920706c2914168f3a5d36ac67c8cda8.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:27 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-ce81705ade68cee3e0cdaf331376a90b0282f327.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:27 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-4b2fd1d7f89805ee26744689103cb09ed466dbe3.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:27 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-9bdad3ab2f55c7fa67d6e66d54e41c37739fc705.html>
+{'_type': '动画',
+ 'author': '幻樱字幕组',
+ 'complete_times': '9',
+ 'content_length': '133.3MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-9bdad3ab2f55c7fa67d6e66d54e41c37739fc705.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：9bdad3ab2f55c7fa67d6e66d54e41c37739fc705</span>',
+ 'published_time': '2021/05/17',
+ 'seed': '23',
+ 'title': '【幻樱字幕组】【4月新番】【青梅竹马绝对不会输的恋爱喜剧Osamake】【05】【GB_MP4】【1280X720】'}
+2021-05-23 00:39:27 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-497059d3f920706c2914168f3a5d36ac67c8cda8.html>
+{'_type': '动画',
+ 'author': '幻櫻字幕組',
+ 'complete_times': '15',
+ 'content_length': '133.2MB',
+ 'download_times': '1',
+ 'href': 'http://www.kisssub.org/show-497059d3f920706c2914168f3a5d36ac67c8cda8.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：497059d3f920706c2914168f3a5d36ac67c8cda8</span>',
+ 'published_time': '2021/05/17',
+ 'seed': '90',
+ 'title': '【幻櫻字幕組】【4月新番】【青梅竹馬絕對不會輸的戀愛喜劇Osamake】【05】【BIG5_MP4】【1280X720】'}
+2021-05-23 00:39:27 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-ce81705ade68cee3e0cdaf331376a90b0282f327.html>
+{'_type': '动画',
+ 'author': '極影字幕社',
+ 'complete_times': '0',
+ 'content_length': '164.6MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-ce81705ade68cee3e0cdaf331376a90b0282f327.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：ce81705ade68cee3e0cdaf331376a90b0282f327</span>',
+ 'published_time': '2021/05/16',
+ 'seed': '0',
+ 'title': '【極影字幕社】★04月新番青梅竹馬絕對不會輸的戀愛喜劇Osananajimi_ga_Zettai_ni_Makenai_Love_Comedy03BIG5720PMP4'}
+2021-05-23 00:39:27 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-d4ac955eebab7120bf3d2ab38ca200ed990c3521.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:28 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-4b2fd1d7f89805ee26744689103cb09ed466dbe3.html>
+{'_type': '动画',
+ 'author': '极影字幕社',
+ 'complete_times': '6',
+ 'content_length': '391MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-4b2fd1d7f89805ee26744689103cb09ed466dbe3.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：4b2fd1d7f89805ee26744689103cb09ed466dbe3</span>',
+ 'published_time': '2021/05/16',
+ 'seed': '6',
+ 'title': '【极影字幕社】★04月新番青梅竹马绝对不会输的恋爱喜剧Osananajimi_ga_Zettai_ni_Makenai_Love_Comedy03GB1080PMP4'}
+2021-05-23 00:39:28 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-d4ac955eebab7120bf3d2ab38ca200ed990c3521.html>
+{'_type': '动画',
+ 'author': '極影字幕社',
+ 'complete_times': '0',
+ 'content_length': '390.9MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-d4ac955eebab7120bf3d2ab38ca200ed990c3521.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：d4ac955eebab7120bf3d2ab38ca200ed990c3521</span>',
+ 'published_time': '2021/05/16',
+ 'seed': '0',
+ 'title': '【極影字幕社】★04月新番青梅竹馬絕對不會輸的戀愛喜劇Osananajimi_ga_Zettai_ni_Makenai_Love_Comedy03BIG51080PMP4'}
+2021-05-23 00:39:28 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-7a133796ec4edc9dd659c1a143e8e43ed05c6285.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:28 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-8d29343237d428bc9952e08a782fddd1eb2191d4.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:28 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-09297c9d0f82a6938494e567e0f24f56ff240c08.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:28 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-7a133796ec4edc9dd659c1a143e8e43ed05c6285.html>
+{'_type': '动画',
+ 'author': '极影字幕社',
+ 'complete_times': '0',
+ 'content_length': '164.6MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-7a133796ec4edc9dd659c1a143e8e43ed05c6285.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：7a133796ec4edc9dd659c1a143e8e43ed05c6285</span>',
+ 'published_time': '2021/05/16',
+ 'seed': '0',
+ 'title': '【极影字幕社】★04月新番青梅竹马绝对不会输的恋爱喜剧Osananajimi_ga_Zettai_ni_Makenai_Love_Comedy03GB720PMP4'}
+2021-05-23 00:39:28 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-8d29343237d428bc9952e08a782fddd1eb2191d4.html>
+{'_type': '动画',
+ 'author': '喵萌奶茶屋',
+ 'complete_times': '16',
+ 'content_length': '426.3MB',
+ 'download_times': '2',
+ 'href': 'http://www.kisssub.org/show-8d29343237d428bc9952e08a782fddd1eb2191d4.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：8d29343237d428bc9952e08a782fddd1eb2191d4</span>',
+ 'published_time': '2021/05/18',
+ 'seed': '42',
+ 'title': '【喵萌奶茶屋】★04月新番★[青梅竹马绝对不会输的恋爱喜剧/OsananajimigaZettainiMakenaiLoveComedy][05][1080p][简体][招募翻译校对]'}
+2021-05-23 00:39:28 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-484071669addd9c8b60d4741fb52dd91f7f00fef.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:28 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-304251108376f83f8749df492cecccd71464d67d.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:28 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-223c78d7b987515051b42a80dbef98cece32b6f8.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:28 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-09297c9d0f82a6938494e567e0f24f56ff240c08.html>
+{'_type': '动画',
+ 'author': '喵萌奶茶屋',
+ 'complete_times': '9',
+ 'content_length': '152.2MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-09297c9d0f82a6938494e567e0f24f56ff240c08.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：09297c9d0f82a6938494e567e0f24f56ff240c08</span>',
+ 'published_time': '2021/05/18',
+ 'seed': '30',
+ 'title': '【喵萌奶茶屋】★04月新番★[青梅竹马绝对不会输的恋爱喜剧/OsananajimigaZettainiMakenaiLoveComedy][05][720p][简体][招募翻译校对]'}
+2021-05-23 00:39:29 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-484071669addd9c8b60d4741fb52dd91f7f00fef.html>
+{'_type': '动画',
+ 'author': '千夏字幕组',
+ 'complete_times': '9',
+ 'content_length': '311.6MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-484071669addd9c8b60d4741fb52dd91f7f00fef.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：484071669addd9c8b60d4741fb52dd91f7f00fef</span>',
+ 'published_time': '2021/05/07',
+ 'seed': '35',
+ 'title': '【千夏字幕组】【青梅竹马绝对不会输的恋爱喜剧_OsananajimigaZettainiMakenaiLoveComedy】[第04话][1080p_AVC][简体]'}
+2021-05-23 00:39:29 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-304251108376f83f8749df492cecccd71464d67d.html>
+{'_type': '动画',
+ 'author': '幻櫻字幕組',
+ 'complete_times': '14',
+ 'content_length': '139.2MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-304251108376f83f8749df492cecccd71464d67d.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：304251108376f83f8749df492cecccd71464d67d</span>',
+ 'published_time': '2021/05/09',
+ 'seed': '79',
+ 'title': '【幻櫻字幕組】【4月新番】【青梅竹馬絕對不會輸的戀愛喜劇Osamake】【04】【BIG5_MP4】【1280X720】'}
+2021-05-23 00:39:29 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-223c78d7b987515051b42a80dbef98cece32b6f8.html>
+{'_type': '动画',
+ 'author': '幻樱字幕组',
+ 'complete_times': '0',
+ 'content_length': '139.2MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-223c78d7b987515051b42a80dbef98cece32b6f8.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：223c78d7b987515051b42a80dbef98cece32b6f8</span>',
+ 'published_time': '2021/05/09',
+ 'seed': '0',
+ 'title': '【幻樱字幕组】【4月新番】【青梅竹马绝对不会输的恋爱喜剧Osamake】【04】【GB_MP4】【1280X720】'}
+2021-05-23 00:39:29 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-3b137d2ea2a248a34e90aaecb73fc9a16d72bdd7.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:29 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-8c5afeaa44dd74e40d0d8c695eff9845d1526129.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:29 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-462c1b4ccfcf377c04bb64de90d21717683ab734.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:29 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-9fcda07e8796c9e5875188f7538f71690d567859.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:29 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-3b137d2ea2a248a34e90aaecb73fc9a16d72bdd7.html>
+{'_type': '动画',
+ 'author': '爱恋字幕社',
+ 'complete_times': '6',
+ 'content_length': '250.6MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-3b137d2ea2a248a34e90aaecb73fc9a16d72bdd7.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：3b137d2ea2a248a34e90aaecb73fc9a16d72bdd7</span>',
+ 'published_time': '2021/05/12',
+ 'seed': '11',
+ 'title': '[爱恋&漫猫字幕组][4月新番][青梅竹马绝对不会输的恋爱喜剧][OsananajimigaZettainiMakenaiLoveComedy][03][1080p][MP4][GB][简中]'}
+2021-05-23 00:39:30 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-8c5afeaa44dd74e40d0d8c695eff9845d1526129.html>
+{'_type': '动画',
+ 'author': '爱恋字幕社',
+ 'complete_times': '10',
+ 'content_length': '251.4MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-8c5afeaa44dd74e40d0d8c695eff9845d1526129.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：8c5afeaa44dd74e40d0d8c695eff9845d1526129</span>',
+ 'published_time': '2021/05/12',
+ 'seed': '14',
+ 'title': '[愛戀&漫貓字幕組][4月新番][青梅竹馬絕對不會輸的戀愛喜劇][OsananajimigaZettainiMakenaiLoveComedy][03][1080p][MP4][BIG5][繁中]'}
+2021-05-23 00:39:30 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-462c1b4ccfcf377c04bb64de90d21717683ab734.html>
+{'_type': '动画',
+ 'author': '千夏字幕組',
+ 'complete_times': '8',
+ 'content_length': '494.1MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-462c1b4ccfcf377c04bb64de90d21717683ab734.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：462c1b4ccfcf377c04bb64de90d21717683ab734</span>',
+ 'published_time': '2021/05/07',
+ 'seed': '41',
+ 'title': '【千夏字幕組】【青梅竹馬絕對不會輸的戀愛喜劇_OsananajimigaZettainiMakenaiLoveComedy】[第04話][1080p_HEVC][簡繁內封]'}
+2021-05-23 00:39:30 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-6bc79caeb7cbece504a613da308a307eeda5d2b5.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:30 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-e97e4f54dbfe527c702518fd9bb66e88a311075b.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:30 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-9fcda07e8796c9e5875188f7538f71690d567859.html>
+{'_type': '动画',
+ 'author': '爱恋字幕社',
+ 'complete_times': '9',
+ 'content_length': '237.3MB',
+ 'download_times': '1',
+ 'href': 'http://www.kisssub.org/show-9fcda07e8796c9e5875188f7538f71690d567859.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：9fcda07e8796c9e5875188f7538f71690d567859</span>',
+ 'published_time': '2021/05/12',
+ 'seed': '23',
+ 'title': '[愛戀&漫貓字幕組][4月新番][青梅竹馬絕對不會輸的戀愛喜劇][OsananajimigaZettainiMakenaiLoveComedy][04][1080p][MP4][BIG5][繁中]'}
+2021-05-23 00:39:30 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-cf9092445375b7bb65cd20206f295ea70253af30.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:30 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-6bc79caeb7cbece504a613da308a307eeda5d2b5.html>
+{'_type': '动画',
+ 'author': 'NC-Raws',
+ 'complete_times': '17',
+ 'content_length': '301.1MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-6bc79caeb7cbece504a613da308a307eeda5d2b5.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：6bc79caeb7cbece504a613da308a307eeda5d2b5</span>',
+ 'published_time': '2021/05/12',
+ 'seed': '25',
+ 'title': '[NC-Raws]青梅竹马绝对不会输的恋爱喜剧/Osamake-05[B-Global][WEB-DL][720p][AVCAAC][CHS_CHT_TH_SRT][MKV]'}
+2021-05-23 00:39:30 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-e97e4f54dbfe527c702518fd9bb66e88a311075b.html>
+{'_type': '动画',
+ 'author': '爱恋字幕社',
+ 'complete_times': '7',
+ 'content_length': '237.5MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-e97e4f54dbfe527c702518fd9bb66e88a311075b.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：e97e4f54dbfe527c702518fd9bb66e88a311075b</span>',
+ 'published_time': '2021/05/12',
+ 'seed': '22',
+ 'title': '[爱恋&漫猫字幕组][4月新番][青梅竹马绝对不会输的恋爱喜剧][OsananajimigaZettainiMakenaiLoveComedy][04][1080p][MP4][GB][简中]'}
+2021-05-23 00:39:30 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-d9bba72e6471e179176c498ee2dc20d8d322aac5.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:30 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-1c7957f77bf470e1864417bcc93f57cfe69474b4.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:31 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-cf9092445375b7bb65cd20206f295ea70253af30.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '8',
+ 'content_length': '305.2MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-cf9092445375b7bb65cd20206f295ea70253af30.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：cf9092445375b7bb65cd20206f295ea70253af30</span>',
+ 'published_time': '2021/05/18',
+ 'seed': '26',
+ 'title': '[桜都字幕组]青梅竹马绝对不会输的恋爱喜剧/OsananajimigaZettainiMakenaiLoveCome[03][1080p][简体内嵌]'}
+2021-05-23 00:39:31 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-2baff23050ed19aa90983ef8e413e64f5c2b46f9.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:31 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-d0c53ce8cf140ef7b61c41de412ec3b217317518.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:31 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-d9bba72e6471e179176c498ee2dc20d8d322aac5.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '0',
+ 'content_length': '298.8MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-d9bba72e6471e179176c498ee2dc20d8d322aac5.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：d9bba72e6471e179176c498ee2dc20d8d322aac5</span>',
+ 'published_time': '2021/05/18',
+ 'seed': '0',
+ 'title': '[桜都字幕组]青梅竹马绝对不会输的恋爱喜剧/OsananajimigaZettainiMakenaiLoveCome[04][1080p][简体内嵌]'}
+2021-05-23 00:39:31 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-1c7957f77bf470e1864417bcc93f57cfe69474b4.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '8',
+ 'content_length': '161.4MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-1c7957f77bf470e1864417bcc93f57cfe69474b4.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：1c7957f77bf470e1864417bcc93f57cfe69474b4</span>',
+ 'published_time': '2021/05/18',
+ 'seed': '11',
+ 'title': '[桜都字幕组]青梅竹马绝对不会输的恋爱喜剧/OsananajimigaZettainiMakenaiLoveCome[04][720p][简体内嵌]'}
+2021-05-23 00:39:31 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-8dadcc1377b20737e53a92a709a0e00afbbab0b0.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:31 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-2baff23050ed19aa90983ef8e413e64f5c2b46f9.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '0',
+ 'content_length': '148.6MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-2baff23050ed19aa90983ef8e413e64f5c2b46f9.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：2baff23050ed19aa90983ef8e413e64f5c2b46f9</span>',
+ 'published_time': '2021/05/18',
+ 'seed': '0',
+ 'title': '[桜都字幕组]青梅竹马绝对不会输的恋爱喜剧/OsananajimigaZettainiMakenaiLoveCome[05][720p][简体内嵌]'}
+2021-05-23 00:39:31 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-d0c53ce8cf140ef7b61c41de412ec3b217317518.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '12',
+ 'content_length': '269.9MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-d0c53ce8cf140ef7b61c41de412ec3b217317518.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：d0c53ce8cf140ef7b61c41de412ec3b217317518</span>',
+ 'published_time': '2021/05/18',
+ 'seed': '32',
+ 'title': '[桜都字幕组]青梅竹马绝对不会输的恋爱喜剧/OsananajimigaZettainiMakenaiLoveCome[05][1080p][简体内嵌]'}
+2021-05-23 00:39:31 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-2367037d9c1b6f5ac9dcff6797f0c1f042c85efc.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:31 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-a32aed2a14d672d318cdd1d76f21629e9a49dbad.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:32 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-8dadcc1377b20737e53a92a709a0e00afbbab0b0.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '8',
+ 'content_length': '165.3MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-8dadcc1377b20737e53a92a709a0e00afbbab0b0.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：8dadcc1377b20737e53a92a709a0e00afbbab0b0</span>',
+ 'published_time': '2021/05/18',
+ 'seed': '12',
+ 'title': '[桜都字幕组]青梅竹马绝对不会输的恋爱喜剧/OsananajimigaZettainiMakenaiLoveCome[03][720p][简体内嵌]'}
+2021-05-23 00:39:32 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-2367037d9c1b6f5ac9dcff6797f0c1f042c85efc.html>
+{'_type': '动画',
+ 'author': 'NC-Raws',
+ 'complete_times': '18',
+ 'content_length': '1.0GB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-2367037d9c1b6f5ac9dcff6797f0c1f042c85efc.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：2367037d9c1b6f5ac9dcff6797f0c1f042c85efc</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '38',
+ 'title': '[NC-Raws]青梅竹马绝对不会输的恋爱喜剧/Osamake-05[B-Global][WEB-DL][1080p][AVCAAC][CHS_CHT_ENG_TH_SRT][MKV]'}
+2021-05-23 00:39:32 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-a32aed2a14d672d318cdd1d76f21629e9a49dbad.html>
+{'_type': '动画',
+ 'author': '雪飄工作室(FLsnow)',
+ 'complete_times': '9',
+ 'content_length': '127.2MB',
+ 'download_times': '1',
+ 'href': 'http://www.kisssub.org/show-a32aed2a14d672d318cdd1d76f21629e9a49dbad.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：a32aed2a14d672d318cdd1d76f21629e9a49dbad</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '29',
+ 'title': '[澄空&华盟&雪飘][青梅竹马绝对不会输的恋爱喜剧/幼なじみが絶対に負けないラブコメ/OsananajimigaZettainiMakenaiLoveComedy][04][720P][简体内嵌]'}
+2021-05-23 00:39:32 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-962ad4bd77fb07a7a433be9befb2d5aad08978da.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:32 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-45dc9d1f6c2924939e9f45564e933f041f2854fc.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:32 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-4ca273804c3952cebf9e25f9c78c53fe8fefd038.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:32 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-962ad4bd77fb07a7a433be9befb2d5aad08978da.html>
+{'_type': '动画',
+ 'author': 'NC-Raws',
+ 'complete_times': '68',
+ 'content_length': '368.4MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-962ad4bd77fb07a7a433be9befb2d5aad08978da.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：962ad4bd77fb07a7a433be9befb2d5aad08978da</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '133',
+ 'title': '[NC-Raws]青梅竹馬絕對不會輸的戀愛喜劇/Osamake-06[Baha][WEB-DL][1080p][AVCAAC][CHT][MP4]'}
+2021-05-23 00:39:32 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-45dc9d1f6c2924939e9f45564e933f041f2854fc.html>
+{'_type': '动画',
+ 'author': 'NC-Raws',
+ 'complete_times': '23',
+ 'content_length': '1.0GB',
+ 'download_times': '1',
+ 'href': 'http://www.kisssub.org/show-45dc9d1f6c2924939e9f45564e933f041f2854fc.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：45dc9d1f6c2924939e9f45564e933f041f2854fc</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '33',
+ 'title': '[NC-Raws]青梅竹马绝对不会输的恋爱喜剧/Osamake-06[B-Global][WEB-DL][1080p][AVCAAC][CHS_CHT_TH_SRT][MKV]'}
+2021-05-23 00:39:32 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-fe5450e1b1527088685e8361160efa183ea720d9.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:32 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-ddc5bca49461b95614d7c6fea03d49a9790ccfcd.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:33 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-4ca273804c3952cebf9e25f9c78c53fe8fefd038.html>
+{'_type': '动画',
+ 'author': '雪飄工作室(FLsnow)',
+ 'complete_times': '14',
+ 'content_length': '117.6MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-4ca273804c3952cebf9e25f9c78c53fe8fefd038.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：4ca273804c3952cebf9e25f9c78c53fe8fefd038</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '30',
+ 'title': '[澄空&华盟&雪飘][青梅竹马绝对不会输的恋爱喜剧/幼なじみが絶対に負けないラブコメ/OsananajimigaZettainiMakenaiLoveComedy][05][720P][简体内嵌]'}
+2021-05-23 00:39:33 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-535391366b34b3623545109bce41138c93cb9471.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:33 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-fe5450e1b1527088685e8361160efa183ea720d9.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '10',
+ 'content_length': '430.5MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-fe5450e1b1527088685e8361160efa183ea720d9.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：fe5450e1b1527088685e8361160efa183ea720d9</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '16',
+ 'title': '[桜都字幕组]青梅竹马绝对不会输的恋爱喜剧/OsananajimigaZettainiMakenaiLoveCome[03][1080p][简繁内封]'}
+2021-05-23 00:39:33 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-ddc5bca49461b95614d7c6fea03d49a9790ccfcd.html>
+{'_type': '动画',
+ 'author': '轻之国度字幕组',
+ 'complete_times': '49',
+ 'content_length': '192MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-ddc5bca49461b95614d7c6fea03d49a9790ccfcd.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：ddc5bca49461b95614d7c6fea03d49a9790ccfcd</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '159',
+ 'title': '[轻之国度字幕组][青梅竹马绝对不会输的恋爱喜剧][06][720P][MP4]'}
+2021-05-23 00:39:33 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-3f8520044e01bc46fa9fd0108db3447e497b0348.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:33 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-535391366b34b3623545109bce41138c93cb9471.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '10',
+ 'content_length': '165.4MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-535391366b34b3623545109bce41138c93cb9471.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：535391366b34b3623545109bce41138c93cb9471</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '27',
+ 'title': '[桜都字幕組]青梅竹馬絕對不會輸的戀愛喜劇/OsananajimigaZettainiMakenaiLoveCome[03][720p][繁體內嵌]'}
+2021-05-23 00:39:33 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-26d0eb011fa6b23c8f97aef0e43f80ea70dbfe82.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:33 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-e059321fe6d2051cd0b2c00426d50b06c3e19b79.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:33 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-3f8520044e01bc46fa9fd0108db3447e497b0348.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '10',
+ 'content_length': '270.2MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-3f8520044e01bc46fa9fd0108db3447e497b0348.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：3f8520044e01bc46fa9fd0108db3447e497b0348</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '28',
+ 'title': '[桜都字幕組]青梅竹馬絕對不會輸的戀愛喜劇/OsananajimigaZettainiMakenaiLoveCome[05][1080p][繁體內嵌]'}
+2021-05-23 00:39:33 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-0ad9501cf7e86e4e4059273a8eea4e1c4fade7a0.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:33 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-d15f6aa10d0f4f878be73450df0ef561c6bb2145.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:34 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-26d0eb011fa6b23c8f97aef0e43f80ea70dbfe82.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '8',
+ 'content_length': '420.7MB',
+ 'download_times': '2',
+ 'href': 'http://www.kisssub.org/show-26d0eb011fa6b23c8f97aef0e43f80ea70dbfe82.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：26d0eb011fa6b23c8f97aef0e43f80ea70dbfe82</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '22',
+ 'title': '[桜都字幕组]青梅竹马绝对不会输的恋爱喜剧/OsananajimigaZettainiMakenaiLoveCome[04][1080p][简繁内封]'}
+2021-05-23 00:39:34 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-e059321fe6d2051cd0b2c00426d50b06c3e19b79.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '10',
+ 'content_length': '305.2MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-e059321fe6d2051cd0b2c00426d50b06c3e19b79.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：e059321fe6d2051cd0b2c00426d50b06c3e19b79</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '21',
+ 'title': '[桜都字幕組]青梅竹馬絕對不會輸的戀愛喜劇/OsananajimigaZettainiMakenaiLoveCome[03][1080p][繁體內嵌]'}
+2021-05-23 00:39:34 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-1f080bd1e5ed1b176fa30b75c4b7b4cb8ab41a2d.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:34 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-ead877a328a33109898ce57af288fb7c2b21cc3f.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:34 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-0ad9501cf7e86e4e4059273a8eea4e1c4fade7a0.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '0',
+ 'content_length': '298.9MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-0ad9501cf7e86e4e4059273a8eea4e1c4fade7a0.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：0ad9501cf7e86e4e4059273a8eea4e1c4fade7a0</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '0',
+ 'title': '[桜都字幕組]青梅竹馬絕對不會輸的戀愛喜劇/OsananajimigaZettainiMakenaiLoveCome[04][1080p][繁體內嵌]'}
+2021-05-23 00:39:34 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-d15f6aa10d0f4f878be73450df0ef561c6bb2145.html>
+{'_type': '动画',
+ 'author': 'Lilith-Raws',
+ 'complete_times': '68',
+ 'content_length': '368.2MB',
+ 'download_times': '3',
+ 'href': 'http://www.kisssub.org/show-d15f6aa10d0f4f878be73450df0ef561c6bb2145.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：d15f6aa10d0f4f878be73450df0ef561c6bb2145</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '281',
+ 'title': '[Lilith-Raws]青梅竹馬絕對不會輸的戀愛喜劇/OsananajimigaZettainiMakenaiLoveComedy-06[Baha][WEB-DL][1080p][AVCAAC][CHT][MP4]'}
+2021-05-23 00:39:34 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-1f080bd1e5ed1b176fa30b75c4b7b4cb8ab41a2d.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '8',
+ 'content_length': '161.5MB',
+ 'download_times': '2',
+ 'href': 'http://www.kisssub.org/show-1f080bd1e5ed1b176fa30b75c4b7b4cb8ab41a2d.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：1f080bd1e5ed1b176fa30b75c4b7b4cb8ab41a2d</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '18',
+ 'title': '[桜都字幕組]青梅竹馬絕對不會輸的戀愛喜劇/OsananajimigaZettainiMakenaiLoveCome[04][720p][繁體內嵌]'}
+2021-05-23 00:39:34 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-ead877a328a33109898ce57af288fb7c2b21cc3f.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '10',
+ 'content_length': '148.7MB',
+ 'download_times': '1',
+ 'href': 'http://www.kisssub.org/show-ead877a328a33109898ce57af288fb7c2b21cc3f.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：ead877a328a33109898ce57af288fb7c2b21cc3f</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '31',
+ 'title': '[桜都字幕組]青梅竹馬絕對不會輸的戀愛喜劇/OsananajimigaZettainiMakenaiLoveCome[05][720p][繁體內嵌]'}
+2021-05-23 00:39:34 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-c9ee896a12e02caabb5d1b99d55cfe73d4c8f481.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:35 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-cc71524bb4dd09152bbd112f7c8e23d1ef037696.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:35 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-f55e5d8643465f332079a060786fc74b88442010.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:35 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-c9ee896a12e02caabb5d1b99d55cfe73d4c8f481.html>
+{'_type': '动画',
+ 'author': '桜都字幕组',
+ 'complete_times': '0',
+ 'content_length': '382.1MB',
+ 'download_times': '0',
+ 'href': 'http://www.kisssub.org/show-c9ee896a12e02caabb5d1b99d55cfe73d4c8f481.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：c9ee896a12e02caabb5d1b99d55cfe73d4c8f481</span>',
+ 'published_time': '2021/05/19',
+ 'seed': '0',
+ 'title': '[桜都字幕组]青梅竹马绝对不会输的恋爱喜剧/OsananajimigaZettainiMakenaiLoveCome[05][1080p][简繁内封]'}
+2021-05-23 00:39:35 [scrapy] DEBUG: Crawled (200) <GET http://www.kisssub.org/show-99a7dc843f3ae47cc32a66b8136faeef742b1f9f.html> (referer: http://www.kisssub.org/search.php?keyword=%E9%9D%92%E6%A2%85%E7%AB%B9%E9%A9%AC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E8%BE%93)
+2021-05-23 00:39:35 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-cc71524bb4dd09152bbd112f7c8e23d1ef037696.html>
+{'_type': '动画',
+ 'author': '千夏字幕组',
+ 'complete_times': '13',
+ 'content_length': '344.6MB',
+ 'download_times': '3',
+ 'href': 'http://www.kisssub.org/show-cc71524bb4dd09152bbd112f7c8e23d1ef037696.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：cc71524bb4dd09152bbd112f7c8e23d1ef037696</span>',
+ 'published_time': '昨天14:36',
+ 'seed': '17',
+ 'title': '【千夏字幕组】【青梅竹马绝对不会输的恋爱喜剧_OsananajimigaZettainiMakenaiLoveComedy】[第06话][1080p_AVC][简体]'}
+2021-05-23 00:39:35 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-f55e5d8643465f332079a060786fc74b88442010.html>
+{'_type': '动画',
+ 'author': '千夏字幕組',
+ 'complete_times': '21',
+ 'content_length': '344.6MB',
+ 'download_times': '3',
+ 'href': 'http://www.kisssub.org/show-f55e5d8643465f332079a060786fc74b88442010.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：f55e5d8643465f332079a060786fc74b88442010</span>',
+ 'published_time': '昨天14:37',
+ 'seed': '38',
+ 'title': '【千夏字幕組】【青梅竹馬絕對不會輸的戀愛喜劇_OsananajimigaZettainiMakenaiLoveComedy】[第06話][1080p_AVC][繁體]'}
+2021-05-23 00:39:35 [scrapy] DEBUG: Scraped from <200 http://www.kisssub.org/show-99a7dc843f3ae47cc32a66b8136faeef742b1f9f.html>
+{'_type': '动画',
+ 'author': '千夏字幕組',
+ 'complete_times': '15',
+ 'content_length': '471.8MB',
+ 'download_times': '3',
+ 'href': 'http://www.kisssub.org/show-99a7dc843f3ae47cc32a66b8136faeef742b1f9f.html',
+ 'magnet_link': '<span '
+                'id="text_hash_id">，特征码：99a7dc843f3ae47cc32a66b8136faeef742b1f9f</span>',
+ 'published_time': '昨天14:37',
+ 'seed': '22',
+ 'title': '【千夏字幕組】【青梅竹馬絕對不會輸的戀愛喜劇_OsananajimigaZettainiMakenaiLoveComedy】[第06話][1080p_HEVC][簡繁內封]'}
+2021-05-23 00:39:35 [scrapy] INFO: Closing spider (finished)
+2021-05-23 00:39:35 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 27498,
+ 'downloader/request_count': 52,
+ 'downloader/request_method_count/GET': 52,
+ 'downloader/response_bytes': 862352,
+ 'downloader/response_count': 52,
+ 'downloader/response_status_count/200': 52,
+ 'elapsed_time_seconds': 14.52762,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 5, 22, 16, 39, 35, 854387),
+ 'httpcompression/response_bytes': 3903884,
+ 'httpcompression/response_count': 52,
+ 'item_scraped_count': 50,
+ 'log_count/DEBUG': 102,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 52,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 51,
+ 'scheduler/dequeued/memory': 51,
+ 'scheduler/enqueued': 51,
+ 'scheduler/enqueued/memory': 51,
+ 'start_time': datetime.datetime(2021, 5, 22, 16, 39, 21, 326767)}
+2021-05-23 00:39:35 [scrapy] INFO: Spider closed (finished)
