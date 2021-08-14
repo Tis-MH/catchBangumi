@@ -1,5 +1,8 @@
 import re
+from threading import Thread
 
+import mariaBb
+import kisssub_bgTable
 import backGround
 import transmission
 
@@ -9,6 +12,8 @@ class Run:
     def __init__(self):
         self.transmission_client = transmission.Transmission()
         self.user_client = backGround.App()
+        self.mysql = mariaBb.MariaDB()
+
 
     # def follow(self, title: str):
     #     utility_db_search_result = self.user_client.utility_db_search(title)
@@ -26,6 +31,8 @@ class Run:
             self.download_one(mapping_i[b'magnet_link'].decode())
             self.user_client.user_database.hmset(i, mapping_i)
 
+
+
     def download_one(self, magnet_hash: str):
         from time import sleep
         self.transmission_client.add_torrent(self.transmission_client.magnet_create(magnet_hash))
@@ -42,8 +49,21 @@ class Run:
 
 
 runNow = Run()
-# title = backGround.Title("战斗员派遣中")
-# ret = runNow.search("【喵萌奶茶屋】★04月新番★[86-不存在的战区-/EIGHTYSIX][*][720p][简体][招募翻译校对]")
-# print(ret)
-runNow.follow("战斗员派遣中 720")
-# runNow.follow("战斗员派遣中")
+while True:
+    mode = input("mode 1 follow // 2 bangumi table:")
+    if mode == '2':
+        bgT_list = kisssub_bgTable.showTable(kisssub_bgTable.getTable("http://www.kisssub.org/addon.php?r=bangumi/table"))
+        for uri in bgT_list:
+            url = "http://www.kisssub.org/" + uri[1] + '/'
+            status_code = runNow.user_client.get_scrapyrt(url)
+            print(status_code)
+        if input("auto download ? yes/no") == 'yes':
+            pass
+    elif mode == 'q':
+        break
+
+    while True:
+        runNow.follow(input("keys: "))
+#
+# while True:
+#     runNow.follow(input("keys: "))

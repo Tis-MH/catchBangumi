@@ -70,5 +70,6 @@ class Transmission:
 
 if __name__ == '__main__':
     a = Transmission()
-    a.torrent_list()
-    a.add_torrent('magnet:?xt=urn:btih:36e2f5578c3b7da315ed803493a6a19090c95e47&tr=http://open.acgtracker.com:1096/announce')
+    print(a.magnet_create("16b96b0f6add515da925d3aab2b87d0f09ac11cc"))
+    # a.torrent_list()
+    # a.add_torrent('magnet:?xt=urn:btih:36e2f5578c3b7da315ed803493a6a19090c95e47&tr=http://open.acgtracker.com:1096/announce')

@@ -1,6 +1,5 @@
 添加番剧表
 添加字幕组表
-添加crawl 项目
 
 ***添加文档***
 ***添加readme***
@@ -16,5 +15,8 @@
 添加前端ui
 添加一键配置远程user redis 服务器
 添加服务器自动定时保存
+
+添加nyaa 爬虫
+添加数据分析 数据可视化
 
 bug: user服务器不能为空, 否则backGround get user database keys 返回为空 报错

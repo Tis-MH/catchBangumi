@@ -8,6 +8,7 @@
 from itemadapter import ItemAdapter
 from re import findall
 import redis
+import mariadb
 
 
 class TutorialPipeline:
@@ -18,6 +19,42 @@ class TutorialPipeline:
         item['download_times'] = "".join((findall("\S+", item['download_times'])))
         item['complete_times'] = "".join(findall("\S+", item['complete_times']))
         return item
+
+class MariaDb:
+    def __init__(self, maria_url, maria_user, maria_passwd, maria_port, maria_db):
+        self.maria_url = maria_url
+        self.maria_user = maria_user
+        self.maria_passwd = maria_passwd
+        self.maria_port = maria_port
+        self.maria_db = maria_db
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(
+            maria_url=crawler.settings.get("maria_url"),
+            maria_db=crawler.settings.get("maria_db"),
+            maria_port=crawler.settings.get("maria_port"),
+            maria_user=crawler.settings.get("maria_user"),
+            maria_passwd=crawler.settings.get("maria_passwd")
+        )
+
+    def open_spider(self, spider):
+        client = mariadb.connect(host=self.maria_url, username=self.maria_user, passwd=self.maria_passwd,
+                                      port=self.maria_port, db=self.maria_db)
+        self.client = client
+        self.cursor = client.cursor()
+
+    def process_item(self, item, spider):
+        self.cursor.execute("insert ignore into Bangumi values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                            [
+                                item['title'], item['complete_times'], item['download_times'], item['_type'],
+                                item['author'], item['href'], item['seed'], item['content_length'],
+                                item['magnet_link'], item['published_time'], item['title']
+                            ])
+
+    def close_spider(self, spider):
+        self.client.close()
+
 
 
 class RedisSave:

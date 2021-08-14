@@ -1,3 +1,5 @@
+import re
+
 import scrapy
 from tutorial.items import KisssubItem
 from bs4 import BeautifulSoup
@@ -7,7 +9,7 @@ from re import search, findall
 class KisssubSpider(scrapy.Spider):
     name = 'kisssub'
     allowed_domains = ['www.kisssub.org']
-    start_urls = ['http://www.kisssub.org/team-1-1.html']
+    start_urls = ['http://www.kisssub.org/search.php?keyword=MEGALOBOX']
 
     def parse(self, response):
         content = response.css("#data_list").extract_first()
@@ -27,21 +29,32 @@ class KisssubSpider(scrapy.Spider):
             kiss['complete_times'] = td_list[6 + one * 8].text
             kiss['author'] = td_list[7 + one * 8].text
             yield magnet_request
-        try:
-            next_ = response.css("a.nextprev::attr('href')").extract()
-            if len(next_) == 1:
-                next_ = next_[0]
-            elif len(next_) == 2:
-                next_ = next_[1]
-            else:
-                raise IndexError
+        # try:
+        #     next_ = response.css("a.nextprev::attr('href')").extract()[0]
+        #
+        # except IndexError:
+        #     # self.crawler.engine.close_spider(self, '\n\n\n\n\n')
+        #     try:
+        #         next_ = response.css("a.nextprev::attr('href')").extract()[1]
+        #     except IndexError:
+        #         self.crawler.engine.close_spider(self, "\n")
+        # url = response.urljoin(next_)
 
-        except IndexError:
-            self.crawler.engine.close_spider(self, '\n\n\n\n\n')
-        url = response.urljoin(next_)
-        with open("record.txt", 'w', encoding='utf-8') as file:
-            file.write(url)
-        yield scrapy.Request(url=url, callback=self.parse)
+        href_list = response.css(".nextprev").getall()
+        for href in href_list:
+            if "〉" in href:
+                try:
+                    url = re.search("href=\"(.+?)\"", href)[1]
+                    url = url.replace("&amp;", "&")
+                    url = response.urljoin(url)
+                    # with open("record.txt", 'w', encoding='utf-8') as file:
+                    #     file.write(url)
+                    yield scrapy.Request(url=url, callback=self.parse)
+                except IndexError:
+                    self.crawler.engine.close_spier(self, '\n')
+
+
+
 
 
     def parse2(self, response):
