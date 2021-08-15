@@ -1,0 +1,8 @@
+scrapy
+bs4
+beautifulsoup4
+pyyaml
+redis
+mariadb
+requests
+transmissionrpc
