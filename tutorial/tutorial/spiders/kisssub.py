@@ -1,6 +1,7 @@
 import re
 
 import scrapy
+import datetime
 from tutorial.items import KisssubItem
 from bs4 import BeautifulSoup
 from re import search, findall
@@ -16,7 +17,14 @@ class KisssubSpider(scrapy.Spider):
         td_list = BeautifulSoup(content, "html.parser").select("td")
         for one in range(50):
             kiss = KisssubItem()
-            kiss['published_time'] = td_list[0 + one * 8].text
+            published_date = td_list[0 + one * 8].text
+            if '今天' in published_date:
+                published_date = str(datetime.date.today()).replace('-', '/')
+            elif '昨天' in published_date:
+                published_date = str(datetime.date.today() - datetime.timedelta(days=1)).replace('-', '/')
+            elif '前天' in published_date:
+                published_date = str(datetime.date.today() - datetime.timedelta(days=2)).replace('-', '/')
+            kiss['published_time'] = published_date
             kiss['_type'] = td_list[1 + one * 8].text
             kiss['title'] = td_list[2 + one * 8].text
             kiss['href'] = "http://www.kisssub.org/" + search("href=\"(.+?)\"", str(td_list[2 + one * 8]))[1]

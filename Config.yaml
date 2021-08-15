@@ -3,7 +3,7 @@ AppConfig:
   utility_database_uri: '120.78.140.25' # 远程公有数据库
   utility_database_port: 6379 # 共有数据库redis密码
   utility_database_no: 0 # 公有数据库redis数据库编号
-  utility_database_passwd: "861238abcACBO" # 密码
+  utility_database_passwd: "861238abcABCO" # 密码
 
   user_database_uri: "192.168.3.230" # 私有数据库
   user_database_port: 6379
@@ -13,6 +13,7 @@ AppConfig:
   download_path: "E:/"
 
   scrapyrt_ip: "192.168.3.230"
+  mission_json_path: "etc/mission.json"
 
 
 
@@ -31,6 +32,7 @@ RequestConfig:
     proxy:
       https: "socks5h://127.0.0.1:7890"
       http: "socks5h://127.0.0.1:7890"
+      middleware_http: "http://172.17.0.1:7890"
     UA: |
         Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/91.0.4472.57 Safari/537.36 Edg/91.0.864.27

@@ -1,12 +1,21 @@
 import redis
 import re
 import time
-
+import yaml
 import requests
 import Config
 import transmission
 from Config import AppConfig
 from threading import Thread
+
+yaml_config = yaml.safe_load(open('Config.yaml', encoding='utf-8').read())
+
+
+def log_to_mission_json(key: str, content: list):
+    mission_json = json.loads(open(yaml_config['AppConfig']['mission_json_path'], encoding='utf-8').read())  # todo 过度依赖文件
+    mission_json['mission'][key] = content
+    with open(yaml_config['AppConfig']['mission_json_path'], 'w', encoding='utf-8') as file:
+        file.write(json.dumps(mission_json, ensure_ascii=False))  # 同上
 
 
 class Title:
@@ -18,7 +27,7 @@ class Title:
     resolution = ''
     lang = ''
 
-    def __init__(self, title) -> None:
+    def __init__(self, title):
         self.title = title
 
     def compose(self):
@@ -131,7 +140,59 @@ class App:
             ret_list.append(utility_db_search_result[int(i)][0])
         return ret_list
 
-    def utility_db_search(self, search_text):
+    def subscribe_one(self, key: str, mission: list) -> str:
+        mission_length = len(mission)
+        compare_mission_list = []  # 具有匹配符用于匹配的list
+        for index in range(len(mission)):
+            res = re.search("@#0(\d+)#@", mission[index])
+            if res:
+                compare_mission_list.append(re.sub("@#0\d+#@", "@#0{}#@".format(int(res[1]) + 1), mission[index]))
+                mission[index] = re.sub("@#0\d+#@", "0{}".format(int(res[1]) + 1), mission[index])
+
+            res = re.search("@#(\d+)#@", mission[index])
+            if res:
+                compare_mission_list.append(re.sub("@#\d+#@", "@#{}#@".format(int(res[1]) + 1), mission[index]))
+                mission[index] = re.sub("@#\d+#@", "{}".format(int(res[1]) + 1), mission[index])
+            # mission[index] = re.sub("@#0\d+#@", "0{}".format(int(re.search("@#0(\d+)#@", mission[index])[1]) + 1), mission[index])
+            # mission[index] = re.sub("@#\d+#@", "{}".format(int(re.search("@#(\d+)#@", mission[index])[1]) + 1), mission[index])
+        index = 0
+        while True:  # 找标题相等的
+            res = self.utility_database.hget(mission[index], 'magnet_link')
+            if res:
+                log_to_mission_json(key, mission)
+                print(mission[index])
+                return res
+
+            else:
+                index = index + 1
+            if index == mission_length:
+                index = 0
+                break
+        while True:  # 找标题包含的
+            search_result = list(map(lambda x: x[0], self.utility_db_search(mission[index])))
+            if len(search_result) == 1:
+                if mission[index] in search_result:
+                    log_to_mission_json(key, compare_mission_list)
+                    print(mission[index])
+                    return str(self.utility_database.hget(mission[index], 'magnet_link'))
+            elif len(search_result) == 0:
+                break
+            else:
+                index = index + 1
+            if index == mission_length:
+                break
+        # todo 没有任何匹配项, 通知用户
+
+    def subscribe_all(self) -> list:  # todo 优化出现完结情况
+        ret_list = []
+        mission = json.loads(open(yaml_config['mission_json_path'], encoding='utf-8').read())
+        mission_mission = mission['mission']
+        for key in mission_mission.keys():
+            ret_list.append(self.subscribe_one(key, mission_mission[key]))
+        return ret_list
+
+
+    def utility_db_search(self, search_text):  # [(name, asociation), ()...]
         split_list = re.split('[,|.|\||\[|\]|【|】| +|_]', search_text)
 
         def count(x):
@@ -153,7 +214,7 @@ class App:
         result_list.sort(key=get, reverse=True)
         return result_list
 
-    def user_db_search(self, search_text):
+    def user_db_search(self, search_text: str):
         split_list = re.split('[,|.|\||\[|\]|【|】| +|_]', search_text)
 
         def count(x):
@@ -213,5 +274,9 @@ class AdminApp(App):
 
 if __name__ == '__main__':
     app = App()
+    import json
+
+    print(app.subscribe_one('青梅竹马绝对不会输的恋爱喜剧',
+                            json.loads(open("etc/mission.json", encoding='utf-8').read())['mission']['青梅竹马绝对不会输的恋爱喜剧']))
     # print(app.follow("86 不存在的战区 01"))
     # app.create_redis_index()

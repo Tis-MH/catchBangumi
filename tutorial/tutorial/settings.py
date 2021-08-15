@@ -1,3 +1,6 @@
+import yaml
+config = yaml.safe_load(open('../Config.yaml', encoding='utf-8').read())
+
 # Scrapy settings for tutorial project
 #
 # For simplicity, this file contains only settings considered important or
@@ -27,7 +30,7 @@ ROBOTSTXT_OBEY = False
 # Confiscrgure a delay for requests for the same website (default: 0)
 # See https://docs.apy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-#DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 1  # 增加延迟
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -53,8 +56,8 @@ TELNETCONSOLE_ENABLED = False
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'tutorial.middlewares.ProxyMiddleware': 100,
-   'tutorial.middlewares.TutorialDownloaderMiddleware': 543,
+    #'tutorial.middlewares.ProxyMiddleware': 100,
+   'tutorial.middlewares.TutorialDownloaderMiddleware': 543 #,
 }
 
 # Enable or disable extensions
@@ -69,10 +72,10 @@ ITEM_PIPELINES = {
    'tutorial.pipelines.TutorialPipeline': 300,
     'tutorial.pipelines.RedisSave': 600
 }
-REDIS_URI = "120.78.140.25"
-REDIS_PORT = 6379
-REDIS_DB = 0
-REDIS_PASSWD = "861238abcABCO"
+REDIS_URI = config['AppConfig']['utility_database_uri']
+REDIS_PORT = config['AppConfig']['utility_database_port']
+REDIS_DB = config['AppConfig']['utility_database_no']
+REDIS_PASSWD = config['AppConfig']['utility_database_passwd']
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

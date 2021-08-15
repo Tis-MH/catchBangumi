@@ -2,8 +2,10 @@
 #
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-
+import yaml
 from scrapy import signals
+
+config = yaml.safe_load(open('../Config.yaml', encoding='utf-8').read())
 
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
@@ -105,4 +107,4 @@ class TutorialDownloaderMiddleware:
 
 class ProxyMiddleware(object):
     def process_request(self, request, spider):
-        request.meta['proxy'] = "http://127.0.0.1:7890"
+        request.meta['proxy'] = config['RequestConfig']['proxy']['middleware_http']

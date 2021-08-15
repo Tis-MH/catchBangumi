@@ -74,7 +74,7 @@ class RedisSave:
         )
 
     def open_spider(self, spider):
-        self.client = redis.Redis(host=self.redis_url, port=self.redis_port, db=0, password=self.redis_passwd)
+        self.client = redis.Redis(host=self.redis_url, port=self.redis_port, db=self.redis_db, password=self.redis_passwd)
 
     def process_item(self, item, spider):
         self.client.hsetnx(item['title'], 'published_time', item['published_time'])
