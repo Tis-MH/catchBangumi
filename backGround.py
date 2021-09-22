@@ -8,6 +8,8 @@ import transmission
 from Config import AppConfig
 from threading import Thread
 
+import kisssub_bgTable
+
 yaml_config = yaml.safe_load(open('Config.yaml', encoding='utf-8').read())
 
 
@@ -159,9 +161,9 @@ class App:
         while True:  # 找标题相等的
             res = self.utility_database.hget(mission[index], 'magnet_link')
             if res:
-                log_to_mission_json(key, mission)
+                log_to_mission_json(key, compare_mission_list)
                 print(mission[index])
-                return res
+                return bytes.decode(res)
 
             else:
                 index = index + 1
@@ -174,7 +176,7 @@ class App:
                 if mission[index] in search_result:
                     log_to_mission_json(key, compare_mission_list)
                     print(mission[index])
-                    return str(self.utility_database.hget(mission[index], 'magnet_link'))
+                    return bytes.decode(self.utility_database.hget(mission[index], 'magnet_link'))
             elif len(search_result) == 0:
                 break
             else:
@@ -185,10 +187,15 @@ class App:
 
     def subscribe_all(self) -> list:  # todo 优化出现完结情况
         ret_list = []
-        mission = json.loads(open(yaml_config['mission_json_path'], encoding='utf-8').read())
+        mission = json.loads(open(yaml_config['AppConfig']['mission_json_path'], encoding='utf-8').read())
         mission_mission = mission['mission']
         for key in mission_mission.keys():
             ret_list.append(self.subscribe_one(key, mission_mission[key]))
+        length = len(ret_list) - 1
+        while length >= 0:
+            if ret_list[length] is None:
+                ret_list.pop(length)
+            length = length - 1
         return ret_list
 
 
@@ -262,6 +269,26 @@ class App:
                 "http://{}:9080/crawl.json?spider_name=kisssub&url={}".format(Config.AppConfig.scrapyrt_ip, href_list))
         return response  # 原为response.status_code
 
+    def subscribe_download(self):
+        ts = transmission.Transmission()
+        while True:
+            download_list = self.subscribe_all()
+            if download_list:
+                for i in download_list:
+                    ts.add_torrent(ts.magnet_create(i))
+
+            else:
+                return
+
+
+    def choose_in_bangumi_table(self):
+        temp = kisssub_bgTable.showTable(kisssub_bgTable.getTable("http://www.kisssub.org/addon.php?r=bangumi/table"))
+        ret_list = []
+        inp = input("no:")
+        inp_list = set(re.split(' +', inp))
+        for i in inp_list:
+            ret_list.append(temp[int(i)][1])
+        print(ret_list)
 
 class AdminApp(App):
 
@@ -275,8 +302,9 @@ class AdminApp(App):
 if __name__ == '__main__':
     app = App()
     import json
-
-    print(app.subscribe_one('青梅竹马绝对不会输的恋爱喜剧',
-                            json.loads(open("etc/mission.json", encoding='utf-8').read())['mission']['青梅竹马绝对不会输的恋爱喜剧']))
+    app.subscribe_download()
+    # app.choose_in_bangumi_table()
+    # print(app.subscribe_one('青梅竹马绝对不会输的恋爱喜剧',
+    #                         json.loads(open("etc/mission.json", encoding='utf-8').read())['mission']['青梅竹马绝对不会输的恋爱喜剧']))
     # print(app.follow("86 不存在的战区 01"))
     # app.create_redis_index()

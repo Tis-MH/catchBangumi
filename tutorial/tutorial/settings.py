@@ -56,8 +56,8 @@ TELNETCONSOLE_ENABLED = False
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    #'tutorial.middlewares.ProxyMiddleware': 100,
-   'tutorial.middlewares.TutorialDownloaderMiddleware': 543 #,
+    'tutorial.middlewares.ProxyMiddleware': 100,
+   'tutorial.middlewares.TutorialDownloaderMiddleware': 543,
 }
 
 # Enable or disable extensions

@@ -26,7 +26,6 @@ def getTable(table_url: str):
 
 def showTable(bangumi_list: dict):
     temp = []
-    ret_list = []
     x = 0
     for week, week_content in zip(bangumi_list.keys(), bangumi_list.values()):
         print(week)
@@ -35,16 +34,14 @@ def showTable(bangumi_list: dict):
             x += 1
             temp.append((x, name))
 
-        print()
-    inp = input("no:")
-    inp_list = set(re.split(' +', inp))
-    for i in inp_list:
-        ret_list.append(temp[int(i)][1])
-    return ret_list
+    return temp
+
 
 
 
 if __name__ == '__main__':
     # print(getTable("http://www.kisssub.org/addon.php?r=bangumi/table"))
-    ret = showTable(getTable("http://www.kisssub.org/addon.php?r=bangumi/table"))
-    print(ret)
+    import pprint
+    pprint.pprint(getTable("http://www.kisssub.org/addon.php?r=bangumi/table"))
+    # ret = showTable(getTable("http://www.kisssub.org/addon.php?r=bangumi/table"))
+    # print(ret)

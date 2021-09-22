@@ -17,7 +17,7 @@ class AppConfig:
 
 class TransmissionConfig:
     torrent_path = ""
-    client_adress = "120.78.140.25"
+    client_adress = "192.168.3.204" #  "120.78.140.25"
     client_port = 9091
     user = "transmission"
     passwd = "861238abcABCO"

@@ -10,7 +10,7 @@ from re import search, findall
 class KisssubSpider(scrapy.Spider):
     name = 'kisssub'
     allowed_domains = ['www.kisssub.org']
-    start_urls = ['http://www.kisssub.org/search.php?keyword=MEGALOBOX']
+    start_urls = ['http://www.kisssub.org/search.php?keyword=%E6%AD%BB%E7%A5%9E%E5%B0%91%E7%88%B7%E4%B8%8E%E9%BB%91%E5%A5%B3%E4%BB%86']
 
     def parse(self, response):
         content = response.css("#data_list").extract_first()
@@ -28,15 +28,15 @@ class KisssubSpider(scrapy.Spider):
             kiss['_type'] = td_list[1 + one * 8].text
             kiss['title'] = td_list[2 + one * 8].text
             kiss['href'] = "http://www.kisssub.org/" + search("href=\"(.+?)\"", str(td_list[2 + one * 8]))[1]
-            magnet_request = scrapy.Request(url=kiss['href'], callback=self.parse2)
-            magnet_request.meta['kiss'] = kiss
-            kiss['magnet_link'] = magnet_request
+            # magnet_request = scrapy.Request(url=kiss['href'], callback=self.parse2)  # 2021/8/14改进, 直接从href中取
+            # magnet_request.meta['kiss'] = kiss　　# 同上
+            kiss['magnet_link'] = re.search("show-(.+?).html", kiss['href'])[1]  # kiss['magnet_link'] = magnet_request
             kiss['content_length'] = td_list[3 + one * 8].text
             kiss['seed'] = td_list[4 + one * 8].text
             kiss['download_times'] = td_list[5 + one * 8].text
             kiss['complete_times'] = td_list[6 + one * 8].text
             kiss['author'] = td_list[7 + one * 8].text
-            yield magnet_request
+            yield kiss  # magnet_request
         # try:
         #     next_ = response.css("a.nextprev::attr('href')").extract()[0]
         #
